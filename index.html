@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Spring Flowers</h1>
+        <p>Your perfect bouquet awaits</p>
+    </header>
+
+    <section class="flower-gallery">
+        <div class="flower-item">
+            <img src="1.jpg" alt="Flower 1" class="flower-image" data-index="1"/>
+            <p class="flower-name">Tulip</p>
+        </div>
+        <div class="flower-item">
+            <img src="2.jpg" alt="Flower 2" class="flower-image" data-index="2"/>
+            <p class="flower-name">Rose</p>
+        </div>
+        <div class="flower-item">
+            <img src="3.jpg" alt="Flower 3" class="flower-image" data-index="3"/>
+            <p class="flower-name">Daisy</p>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Spring Flowers | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
